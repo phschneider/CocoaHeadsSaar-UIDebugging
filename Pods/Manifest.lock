@@ -1,12 +1,10 @@
 PODS:
-  - NSLogger (1.5.1):
-    - NSLogger/Standard
-  - NSLogger/Standard (1.5.1)
+  - iOS-Hierarchy-Viewer (1.4.7)
 
 DEPENDENCIES:
-  - NSLogger
+  - iOS-Hierarchy-Viewer
 
 SPEC CHECKSUMS:
-  NSLogger: 5ed223a2436df96244e033be750656dacdeec034
+  iOS-Hierarchy-Viewer: fb8ef72b55a8915ab0575543970754ea696e9061
 
 COCOAPODS: 0.33.1

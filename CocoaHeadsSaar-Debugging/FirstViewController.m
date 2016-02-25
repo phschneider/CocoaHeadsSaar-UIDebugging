@@ -7,7 +7,7 @@
 //
 
 #import "FirstViewController.h"
-#import "NSLogger.h"
+#import "iOSHierarchyViewer.h"
 
 @interface FirstViewController ()
 
@@ -21,8 +21,7 @@
 
     [self addSampleViews];
     
-    LoggerStart(LoggerGetDefaultLogger());   
-    LoggerApp(1, @"Hello world! Today is: %@", [NSDate date]);
+    [iOSHierarchyViewer start];
 }
 
 
@@ -52,10 +51,6 @@
 {
     [super viewDidAppear:animated];
  
-    for (UIView *view in self.view.subviews)
-    {
-        LoggerApp(1, @"%p %@", view, NSStringFromCGRect(view.frame));
-    }
 }
 
 @end

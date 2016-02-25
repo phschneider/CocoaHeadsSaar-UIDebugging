@@ -1,3 +1,3 @@
 platform :ios, '8.0'
 
-pod 'NSLogger'
+pod 'iOS-Hierarchy-Viewer'
