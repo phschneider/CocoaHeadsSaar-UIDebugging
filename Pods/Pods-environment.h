@@ -6,9 +6,9 @@
 // project.
 
 
-// SparkInspector
-#define COCOAPODS_POD_AVAILABLE_SparkInspector
-#define COCOAPODS_VERSION_MAJOR_SparkInspector 1
-#define COCOAPODS_VERSION_MINOR_SparkInspector 3
-#define COCOAPODS_VERSION_PATCH_SparkInspector 4
+// Reveal-iOS-SDK
+#define COCOAPODS_POD_AVAILABLE_Reveal_iOS_SDK
+#define COCOAPODS_VERSION_MAJOR_Reveal_iOS_SDK 1
+#define COCOAPODS_VERSION_MINOR_Reveal_iOS_SDK 6
+#define COCOAPODS_VERSION_PATCH_Reveal_iOS_SDK 2
 
