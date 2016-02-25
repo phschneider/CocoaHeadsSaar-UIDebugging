@@ -21,6 +21,7 @@
     [self addSampleViews];
 }
 
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -40,6 +41,13 @@
         view.backgroundColor = [UIColor colorWithRed:x/255 green:y/255 blue:w/255 alpha:0.5];
         [self.view addSubview:view];
     }
+}
+
+
+- (void) viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
 }
 
 @end
