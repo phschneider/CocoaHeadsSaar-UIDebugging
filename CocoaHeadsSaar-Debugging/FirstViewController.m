@@ -7,6 +7,7 @@
 //
 
 #import "FirstViewController.h"
+#import "NSLogger.h"
 
 @interface FirstViewController ()
 
@@ -19,6 +20,9 @@
     // Do any additional setup after loading the view, typically from a nib.
 
     [self addSampleViews];
+    
+    LoggerStart(LoggerGetDefaultLogger());   
+    LoggerApp(1, @"Hello world! Today is: %@", [NSDate date]);
 }
 
 
@@ -47,7 +51,11 @@
 - (void) viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    
+ 
+    for (UIView *view in self.view.subviews)
+    {
+        LoggerApp(1, @"%p %@", view, NSStringFromCGRect(view.frame));
+    }
 }
 
 @end
