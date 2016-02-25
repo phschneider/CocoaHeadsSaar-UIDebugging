@@ -7,7 +7,6 @@
 //
 
 #import "FirstViewController.h"
-#import "iOSHierarchyViewer.h"
 
 @interface FirstViewController ()
 
@@ -20,8 +19,6 @@
     // Do any additional setup after loading the view, typically from a nib.
 
     [self addSampleViews];
-    
-    [iOSHierarchyViewer start];
 }
 
 

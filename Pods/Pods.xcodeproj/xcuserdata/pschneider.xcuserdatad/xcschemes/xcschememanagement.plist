@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-iOS-Hierarchy-Viewer.xcscheme</key>
+		<key>Pods-SparkInspector.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>8A6BBA77F8BB4FEC992E0B95</key>
+		<key>00C0EF0F930940F09904F431</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8EDAF7AEBAF44293B4B6A5AE</key>
+		<key>E6128D4837664807803DA8EF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
